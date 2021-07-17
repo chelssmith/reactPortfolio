@@ -14,9 +14,7 @@ export default function Nav() {
           justifyContent: 'flex-start',
         }}
       >
-        <div style={linkStyle}>
-          <a href="#">Home</a>
-        </div>
+       
         <div style={linkStyle}>
           <a href="#">About</a>
         </div>
