@@ -25,8 +25,6 @@ function Projects() {
                     <h3>Tech Blog</h3>
                     <a href="https://github.com/chelssmith/tech-blog"> <img src={tech}  alt ="tech"width="500" height="250" /></a>
                 </section>
-
-
             </section>
         </div>
     )
