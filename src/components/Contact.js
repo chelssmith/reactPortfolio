@@ -1,37 +1,38 @@
 import React from 'react';
-// import 'Style.css';
+
 
 function Contact() {
     return (
 
         <div id="contact">
-            <h2>- Contact Me Here -</h2>
-                <ul>
-                    <li><a href= "https://github.com/chelssmith">Github</a></li>
-                    <li><a href= "mailto:smith2chelsea2@gmail.com">Email: smith2chelsea2@gmail.com</a></li>
-                </ul>
-            <h2>- Or Fill Out This From -</h2>
+            <h2> Contact Me Here </h2>
+            <ul>
+                <li><a href="https://github.com/chelssmith"> Github </a></li>
+                <li><a href="mailto:smith2chelsea2@gmail.com"> Email: smith2chelsea2@gmail.com </a></li>
+            </ul>
+            <h2> Or Fill Out This From </h2>
             <div id="contact-form">
                 <form>
                     <div>
-                        <label htmlFor="name">Name:</label>
+                        <label htmlFor="name">Name</label>
                         <br />
                         <input type="text" id="name" required />
                     </div>
                     <div>
-                        <label htmlFor="email">Email:</label>
+                        <label htmlFor="email">Email</label>
                         <br />
                         <input type="email" id="email" required />
                     </div>
                     <div>
-                        <label htmlFor="message">Message:</label>
+                        <label htmlFor="message">Message</label>
                         <br />
                         <textarea id="message" required />
                     </div>
                     <button type="submit">Submit</button>
                 </form>
             </div>
-            </div>
-            )}
+        </div>
+    )
+}
 
 export default Contact;

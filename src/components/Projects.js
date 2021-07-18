@@ -3,6 +3,8 @@ import ecomm from "../images/ecomm.gif";
 import fitness from "../images/fitness.png";
 import flicks from '../images/flicks.png';
 import tech from '../images/techblog.gif';
+import employee from '../images/employee.png';
+import work from '../images/work.png';
 
 function Projects() {
     return (
@@ -24,6 +26,14 @@ function Projects() {
                 <section className="card" id="tech">
                     <h3>Tech Blog</h3>
                     <a href="https://github.com/chelssmith/tech-blog"> <img src={tech}  alt ="tech"width="500" height="250" /></a>
+                </section>
+                <section className="card" id="employee">
+                    <h3>Employee Tracker</h3>
+                    <a href="https://www.youtube.com/watch?v=cCUgrnKzF8U"> <img src={employee}  alt ="employee" width="500" height="250" /></a>
+                </section>
+                <section className="card" id="work">
+                    <h3>Profile Generator</h3>
+                    <a href="https://www.youtube.com/watch?v=Kc42xKlkwMg"> <img src={work}  alt ="work" width="500" height="250" /></a>
                 </section>
             </section>
         </div>
