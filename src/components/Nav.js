@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Nav() {
   
@@ -14,6 +15,8 @@ function Nav() {
     
   )
 }
+
+export default Nav;
 // <nav className="main-header-menu">
     //   <section
     //     style={{
