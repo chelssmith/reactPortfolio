@@ -5,7 +5,12 @@ function Contact() {
     return (
 
         <div id="contact">
-            <h2>- Contact -</h2>
+            <h2>- Contact Me Here -</h2>
+                <ul>
+                    <li><a href= "https://github.com/chelssmith">Github</a></li>
+                    <li><a href= "mailto:smith2chelsea2@gmail.com">Email: smith2chelsea2@gmail.com</a></li>
+                </ul>
+            <h2>- Or Fill Out This From -</h2>
             <div id="contact-form">
                 <form>
                     <div>
