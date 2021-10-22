@@ -6,10 +6,10 @@ function Contact() {
 
         <div id="contact">
             <h2> Contact Me Here </h2>
-            <ul>
-                <li><a href="https://github.com/chelssmith"> Github </a></li>
-                <li><a href="mailto:smith2chelsea2@gmail.com"> Email: smith2chelsea2@gmail.com </a></li>
-            </ul>
+                
+                    <div><a href="https//github.com/chelssmith">GitHub</a></div>
+                    <div><a href="mailto:smith2chelsea2@gmail.com">Email: smith2chelsea2@gmail.com</a></div>
+           
             <h2> Or Fill Out This From </h2>
             <div id="contact-form">
                 <form>
